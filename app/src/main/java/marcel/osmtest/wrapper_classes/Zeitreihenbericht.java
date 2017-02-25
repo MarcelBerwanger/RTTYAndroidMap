@@ -22,7 +22,7 @@ public class Zeitreihenbericht {
     private String zeit;//Zeit der Vorhersage
     private String windrichtung;
     private String windstaerke;//Windstaerke in Beaufort
-    private String boeen;//Boenstaerke in Beaufort
+    private String boeen;//Boenstaerke in Knoten
     private String wellenhoehe;//Wellenhoehe in meter
     private long parsetime;
     private String wetter;
@@ -89,9 +89,9 @@ public class Zeitreihenbericht {
                 "Datum: " + datum + '\n' +
                 "Zeit: " + zeit + '\n' +
                 "Windrichtung: " + windrichtung + '\n' +
-                "Windstärke: " + windstaerke + '\n' +
-                "Boeen: " + boeen + '\n' +
-                "Wellenhöhe: " + wellenhoehe + '\n' +
+                "Windstärke: " + windstaerke + " Bft \n" +
+                "Boeen: " + boeen + " Kn \n" +
+                "Wellenhöhe: " + wellenhoehe + " m \n" +
                 "Wetter: " + wetter + '\n';
     }
 
