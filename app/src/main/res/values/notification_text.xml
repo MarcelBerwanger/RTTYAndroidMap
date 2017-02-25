@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alert_header_popup">Fehler</string>
+    <string name="alert_no_internet_connection">Es konnte keine Verbindung zum Internet aufgebaut werden. Wenn Sie Ihr Kartenmaterial aktualisieren möchten, benötigen Sie eine aktive Internetverbindung.</string>
+    <string name="alert_no_data_recived">Es konnten keine Daten vom Server empfangen werden, möglicherweise besteht keine Verbindung zum Server.</string>
+</resources>

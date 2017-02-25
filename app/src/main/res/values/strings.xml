@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OsmTest</string>
+    <string name="date_format">yyyyMM</string>
+
+    <string name="preference_file_key">com.example.osmtest.lastDownloadTiles</string>
+    <string name="preference_field_last_download">last_download_map_tiles</string>
+    <string name="preference_default_value">nva</string> <!--nva bedeutet no value assigned-->
+
+    <string name="api_call_map_data">/rtty.php?get=mapData</string>
+    <string name="api_call_nautische">/rtty.php?get=nautischeWarnmeldungen</string>
+    <string name="api_call_orte">/rtty.php?get=orte</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".graphics.ScoreActivity">
+
+    <item android:id="@+id/manual_refresh_map" android:title="Map aktualisieren"/>
+    <item android:id="@+id/settings" android:title="Einstellungen"/>
+    <item android:id="@+id/exit_menu" android:title="Verlassen"/>
+</menu>
